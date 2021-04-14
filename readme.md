@@ -1,3 +1,6 @@
+# Info
+GA assignment to practice API, axios, node, express, ejs, ejs layouts,and sequelize.
+
 # Express with APIs - OMDB
 
 We'll be creating an app that connects to [OMDB](http://www.omdbapi.com), a public movie API. You will need a key. Go to the site to register for a free one. Keep API keys out of public repos!

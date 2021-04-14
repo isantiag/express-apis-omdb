@@ -37,7 +37,6 @@ app.get('/movies/:movie_id',(req,res)=>{
 app.get('/faves', (req,res)=>{
     db.fave.findAll().then(titles =>{
     console.log(titles)
-    console.log('entrou2')
     //  res.sendStatus(200)
     res.render('faves',{titles})
     // process.exit()
@@ -51,7 +50,6 @@ app.post('/faves',(req,res)=>{
     imdbid: req.body.imdbid,
 }).then(createdUser =>{
     console.log(createdUser)
-    console.log('entrou1')
     res.redirect('/faves')
     // process.exit()        
 })
